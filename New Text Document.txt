@@ -62,3 +62,297 @@ Cashing in on his popularity, he starred in the lead role of the historical come
 
 </body>
 </html> 
+
+
+2
+
+.box-model-1{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+background-color: lightblue;
+max-width: 700px;
+}
+.box-model-1 div{
+margin: 12px;
+}
+.box-model-2{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+background-color: lightblue;
+max-width: 700px;
+}
+.box-model-2 div{
+margin: 12px;
+}
+
+.box-model-3{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+background-color: lightblue;
+max-width: 700px;
+}
+.box-model-3 div{
+margin: 12px;
+}
+
+.box-model-4{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+background-color: lightblue;
+max-width: 700px;
+}
+.box-model- div{
+margin: 12px;
+}
+
+3.
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+
+//import compass
+@import "compass";
+
+//colors
+$primary-color   : #FF512F;
+$secondary-color : #333;
+$form-bg         : #fff;
+
+
+//contact form
+.contact-form{
+    margin-top: 30px;
+    .input-block{
+        background-color: rgba(white, .8);
+        border: solid 1px $primary-color;
+        width: 100%;
+        height: 60px;
+        padding: 25px;
+        position: relative;
+        margin-bottom: 20px;
+        @include transition(all 0.3s ease-out);
+        &.focus{
+            background-color: $form-bg;
+            border: solid 1px darken($primary-color, 10%);
+        }
+        &.textarea{
+            height: auto;
+            .form-control{
+                height: auto;
+                resize: none;
+            }
+        }
+        label{
+            position: absolute;
+            left: 25px;
+            top: 25px;
+            display: block;
+            margin: 0;
+            font-weight: 300;
+            z-index: 1;
+            color: $secondary-color;
+            font-size: 18px;
+            line-height: 10px;
+        }
+        .form-control{
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            @include border-radius(0);
+            @include box-shadow(none);
+            height: auto;
+            position: relative;
+            z-index: 2;
+            font-size: 18px;
+            color: $secondary-color;
+        }
+        .form-control:focus{
+            label{
+                top: 0;
+            }
+        }
+    }
+    .square-button{
+        background-color: rgba(white, .8);
+        color: darken($primary-color, 10%);
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        @include border-radius(2px);
+        @include transition(all 0.3s ease);
+        padding: 0 60px;
+        height: 60px;
+        border: none;
+        width: 100%;
+        &:hover,
+        &:focus{
+            background-color: white;
+        }
+    }
+}
+
+//tablet and above devices
+@media (min-width: 768px) { 
+  .contact-wrap{
+    width: 60%;
+    margin: auto;
+  }
+}
+
+
+
+
+//////////////////////////
+  /*----page styles---*/
+//////////////////////////
+body{
+  @include background-image(linear-gradient(to right, $primary-color, #DD2476));
+  font-family: 'Roboto', sans-serif;
+}
+.contact-wrap{
+  padding: 15px;
+}
+
+h1{
+  background-color: white;
+  color: lighten($primary-color, 10%);
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  small{
+    font-size: 18px;
+    display: block;
+    text-transform: none;
+    font-weight: 300;
+    margin-top: 10px;
+    color: lighten($primary-color, 10%);
+  }
+}
+
+
+
+//follow me template
+.made-with-love{
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+  i{
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+
+4
+<!doctype html>
+<html>
+<head>
+<title> About page </title>
+<style>
+	article
+	{
+		font-family: verdana;
+		display: inline;
+		font-size: 20px;
+		font-color:black;
+	}
+</style>
+</head>
+<body class="about">
+
+<div style="font-family: comic sans ms; font-style: italic; color: green; font-size: 40px; text-shadow: 1px 1px 2px #000000;">
+
+<br><br>
+<div style="font-family: verdana; font-style: italic; color: #131119; font-size: 26px; text-shadow: 1px 1px 2px #ffafff; "> 
+
+
+<img src="#">
+<br>
+<br>
+<br>
+<section>
+	<div style="font-family: verdana; font-size:37px; "> About </div>
+<br>
+<article>
+Music is the art form that combines rhythm and sound to form a functional melodic line. Music itself transcends time, space, and cultures. Music can carry a mood without speaking any specific words. It can also be captured and recorded in a written universal language unique unto any other art form.
+
+The history of music is a lengthy topic which requires much depth and time. Music is an ancient art form that began during prehistoric times. It carries with it a history for each human culture throughout time. Although there are many varied definitions of music, it is a cultural universal because every culture throughout time and history has made music a primary component of life. For ages, music was passed down through oral tradition on a fundamental level; but for formal purposes, recorded music began with the written tradition by medieval monks during 500 AD to 1400.
+
+Monks used a written number system based on neumes which is a predecessor for modern musical notation today. This was also the time period when polyphony was developed, which means the usage of multiple sounds coming together to form a melody and harmony. The birth of music, as it is today, truly emerged out of the Renaissance time period. In the sixteenth century, a time period known as the golden age, began. The art of vocal polyphony in both sacred and secular music began to emerge and the theories on music were formulated. Gioseffo Zarlino was the Master of the Chapel at St. Marks in Venice, Italy. His work on proportion in voice and music formulated a harmony on the whole. The idea of balance in both the world and in music gave way to writing music with balance in mind. The word music is derived from a word in the Greek language, "mousike" which translates to, ''art of the muses.''
+</article>
+</section>
+<br>
+<br>
+  </head>
+  </html>
+
+
+
+5
+
+<!doctype html>
+<html>
+<head>
+<title> About page </title>
+<style>
+	article
+	{
+		font-family: verdana;
+		display: inline;
+		font-size: 20px;
+		font-color:black;
+	}
+</style>
+</head>
+<body class="about">
+
+<div style="font-family: comic sans ms; font-style: italic; color: green; font-size: 40px; text-shadow: 1px 1px 2px #000000;">
+
+<br><br>
+<div style="font-family: verdana; font-style: italic; color: #131119; font-size: 26px; text-shadow: 1px 1px 2px #ffafff; "> 
+
+
+<img src="#">
+<br>
+<br>
+<br>
+<section>
+	<div style="font-family: verdana; font-size:37px; "> About </div>
+<br>
+<article>
+Music is the art form that combines rhythm and sound to form a functional melodic line. Music itself transcends time, space, and cultures. Music can carry a mood without speaking any specific words. It can also be captured and recorded in a written universal language unique unto any other art form.
+
+The history of music is a lengthy topic which requires much depth and time. Music is an ancient art form that began during prehistoric times. It carries with it a history for each human culture throughout time. Although there are many varied definitions of music, it is a cultural universal because every culture throughout time and history has made music a primary component of life. For ages, music was passed down through oral tradition on a fundamental level; but for formal purposes, recorded music began with the written tradition by medieval monks during 500 AD to 1400.
+
+Monks used a written number system based on neumes which is a predecessor for modern musical notation today. This was also the time period when polyphony was developed, which means the usage of multiple sounds coming together to form a melody and harmony. The birth of music, as it is today, truly emerged out of the Renaissance time period. In the sixteenth century, a time period known as the golden age, began. The art of vocal polyphony in both sacred and secular music began to emerge and the theories on music were formulated. Gioseffo Zarlino was the Master of the Chapel at St. Marks in Venice, Italy. His work on proportion in voice and music formulated a harmony on the whole. The idea of balance in both the world and in music gave way to writing music with balance in mind. The word music is derived from a word in the Greek language, "mousike" which translates to, ''art of the muses.''
+</article>
+</section>
+<br>
+<br>
+  </head>
+  </html>
