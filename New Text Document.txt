@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Box Model</title>
+<link rel="stylesheet" href="Artist.css">
+</head>
+<body>
+
+<section class="box-model-1">
+<div>
+<img src="#" alt="image" height="200px" >
+</div>
+<div>
+Rajinikanth had his primary education at the Gavipuram Government Kannada Model Primary School in Bangalore. As a child, he was "studious and mischievous" with a great interest in cricket, football and basketball. During this time, his brother enrolled him at the Ramakrishna Math, a Hindu monastery set up by the Ramakrishna Mission. In the math, he was taught Vedas, tradition and history, which eventually instilled a sense of spirituality in him.In addition to spiritual lessons, he also began acting in plays at the math. His aspiration towards theatre grew at the math and was once given an opportunity to enact the role of Ekalavya's friend from the Hindu epic Mahabharata. His performance in the play received praise from the Kannada poet D. R. Bendre. After sixth grade, Rajinikanth was enrolled at the Acharya Pathasala Public School and studied there till completion of his pre-university course.During his schooling at the Acharya Pathasala, he spent a lot of time acting in plays.
+</div>
+
+
+</section>
+<br>
+
+<section class="box-model-2">
+<div>
+<img src="#" alt="image" height="200px" >
+</div>
+<div>
+Balasubrahmanyam debuted as a playback singer on 15 December 1966 with the song 'Emiyee Vinta Moham' for Sri Sri Sri Maryada Ramanna, a Telugu film scored by his mentor, S. P. Kodandapani.The first non-Telugu song that he recorded just eight days after his debut Telugu song was in Kannada in 1966 for the film Nakkare Ade Swarga, starring Kannada comedy stalwart T. R. Narasimharaju.[44][45] He recorded his first Tamil song "Athaanodu Ippadi Irundhu Eththanai Naalaachu", a duet with L. R. Eswari under the musical direction of M. S. Viswanathan for the film Hotel Ramba, which never released. The song "Medante Meda Kaadu" from the film Sukha Dukhalu (1968) composed by Kondandapani brought him recognition in Telugu cinema.
+</div>
+
+
+</section>
+
+<br>
+
+<section class="box-model-3">
+<div>
+<img src="#" alt="image" height="200px" >
+</div>
+<div>
+Vadivelu is known to assist directors, with his own input being used during sets. The hallmark of his comedy was self-deprecation. Vadivelu's characters thought very highly of themselves – they were clownish versions of the gang leader. After a certain stage of success, he started to act as a solo comedian, supported by other minor comedians.
+
+Cashing in on his popularity, he starred in the lead role of the historical comedy in the film Imsai Arasan 23rd Pulikecei. The movie was declared a blockbuster and was widely acclaimed for its 'clean' comedy. Vadivelu played in a dual role, playing twin brothers of a heartless but comical dictator king and a revolutionary. His next venture as the lead star was in the movie Indiralogathil Na Azhagappan (2008).
+</div>
+
+
+</section>
+
+<br>
+
+<section class="box-model-4">
+<div>
+<img src="#" alt="image" height="200px" >
+</div>
+<div>
+  Sivaangi was born in Trivandrum, Kerala to a Malayali mother and Tamil father on 25 May 2000. Her father, Krishnakumar, is a singer and a musicologist, and her mother, Binni Krishnakumar is a playback singer. Both her parents are recipients of Kalaimamani Award. She also has a younger brother, Vinaayak Sunder. After Sivaangi was born, her parents moved to Chennai, Tamil Nadu. She did her schooling in Chinmaya Vidyalaya,Virugambakkam, Chennai. She later completed her bachelor's degree in Commerce at M.O.P. Vaishnav College for Women, Chennai. During her college days, she ventured into the music industry.
+</div>
+
+
+</section>
+
+</body>
+</html> 
